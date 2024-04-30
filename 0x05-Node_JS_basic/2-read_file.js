@@ -17,7 +17,7 @@ function countStudents(path) {
   // eslint-disable-next-line no-plusplus
   for (let i = 1; i < data.length; i++) {
     // eslint-disable-next-line no-continue
-    if (data[i] == '') continue;
+    if (data[i] === '') continue;
     // eslint-disable-next-line no-plusplus
     count++;
     const row = data[i].split(',');
